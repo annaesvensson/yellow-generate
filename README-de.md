@@ -34,7 +34,7 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
 
 Übersicht der verfügbaren Befehle:
 
-`php yellow.php about` = Aktuelle Version anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php about` = Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
 `php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
 `php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
@@ -73,7 +73,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

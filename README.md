@@ -34,7 +34,7 @@ Content file with option for building a static website:
 
 Overview of available commands:
 
-`php yellow.php about` = Show current version, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
 `php yellow.php clean` = Clean static website, requires command extension  
@@ -73,7 +73,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Installation
 
-[Download extension](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
