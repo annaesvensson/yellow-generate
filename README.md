@@ -12,7 +12,7 @@ Open a terminal window. Go to your installation folder, where the file `yellow.p
 
 ## How to build a static website
 
-You can build a static website at the command line. The biggest difference between a static website and a normal website is that a static site generator builds everything in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type: `php yellow.php clean`.
+You can build a static website at the command line. The static site generator builds the entire website in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type: `php yellow.php clean`.
 
 If you don't want that a page is built, set `Build: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 
