@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.44
+# Command 0.8.45
 
 Webbplatsens kommandorad.
 
@@ -66,8 +66,8 @@ Rengör statisk webbplats och andra filer på kommandoraden:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
-`CommandStaticBuildDirectory` = map för statiskt genererade filer  
+`CommandStaticUrl` = webbplatsens URL när man använder kommandoraden  
+`CommandStaticDirectory ` = map för statiskt genererade filer  
 `CommandStaticDefaultFile` = standardfil för statisk webbplats  
 `CommandStaticErrorFile` = felfil för statisk webbplats  
 
