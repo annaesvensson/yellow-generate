@@ -8,7 +8,7 @@ Command line of the website.
 
 ## How to use the command line
 
-You can control your website at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions and version numbers. 
+You can control your website at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions and version numbers. 
 
 If you don't have PHP on your computer, [see PHP installation](https://www.php.net/manual/en/install.php).
 
