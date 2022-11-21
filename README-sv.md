@@ -8,7 +8,9 @@ Webbplatsens kommandorad.
 
 ## Hur man använder kommandoraden
 
-Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen och versionsnumren. Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
+Du kan styra din webbplats på kommandoraden. Detta ger dig möjlighet att bygga en statisk webbplats och ladda upp den till din webbserver senare. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen och versionsnumren.
+
+Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
 
 ## Hur man bygger en statisk webbplats
 
