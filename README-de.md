@@ -8,7 +8,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Du kannst deine Webseite in der Befehlszeile kontrollieren. Das gibt dir die Möglichkeit eine statische Webseite zu erstellen und sie später auf deinen Webserver hochzuladen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen und Versionsnummern anzuzeigen.
+Du kannst deine Webseite in der Befehlszeile kontrollieren. Das gibt dir die Möglichkeit Erweiterungen zu installieren,  Benutzerkonten zu erstellen und eine statische Webseite zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen und Versionsnummern anzuzeigen.
 
 Falls du kein PHP auf deinem Computer hast, [siehe PHP Installation](https://www.php.net/manual/de/install.php).
 
