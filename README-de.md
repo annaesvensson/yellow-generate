@@ -6,11 +6,13 @@ Befehlszeile der Webseite.
 
 <p align="center"><img src="command-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man die Befehlszeile benutzt
 
 Du kannst deine Webseite in der Befehlszeile kontrollieren. Das gibt dir die Möglichkeit Erweiterungen zu installieren,  Benutzerkonten zu erstellen und eine statische Webseite zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen und Versionsnummern anzuzeigen.
-
-Falls du kein PHP auf deinem Computer hast, [siehe PHP Installation](https://www.php.net/manual/de/install.php).
 
 ## Wie man eine statische Webseite erstellt
 
@@ -40,11 +42,11 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
 `php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
 `php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
-`php yellow.php install` = Erweiterungen hinzufügen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md)  
 `php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/annaesvensson/yellow-traffic/tree/main/README-de.md)  
-`php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
 
@@ -72,10 +74,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `CommandStaticDirectory ` = Verzeichnis für statisch erzeugte Dateien  
 `CommandStaticDefaultFile` = Standard-Datei der statischen Webseite  
 `CommandStaticErrorFile` = Fehler-Datei der statischen Webseite  
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

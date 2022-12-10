@@ -6,11 +6,13 @@ Command line of the website.
 
 <p align="center"><img src="command-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to use the command line
 
-You can control your website at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions and version numbers. 
-
-If you don't have PHP on your computer, [see PHP installation](https://www.php.net/manual/en/install.php).
+You can control your website at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions and version numbers.
 
 ## How to build a static website
 
@@ -40,11 +42,11 @@ Overview of available commands:
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
 `php yellow.php clean` = Clean static website, requires command extension  
-`php yellow.php install` = Add extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
 `php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
-`php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
@@ -72,10 +74,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `CommandStaticDirectory` = directory for statically generated files  
 `CommandStaticDefaultFile` = default file for static website  
 `CommandStaticErrorFile` = error file for static website  
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 

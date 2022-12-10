@@ -6,11 +6,13 @@ Webbplatsens kommandorad.
 
 <p align="center"><img src="command-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-fil](https://github.com/annaesvensson/yellow-command/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man använder kommandoraden
 
 Du kan styra din webbplats på kommandoraden. Detta ger dig möjlighet att installera tilläg, skapa användarkonton och bygga en statisk webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen och versionsnumren.
-
-Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
 
 ## Hur man bygger en statisk webbplats
 
@@ -40,11 +42,11 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
 `php yellow.php build` = Bygg statisk webbplats, kräver command-tillägg  
 `php yellow.php check` = Kontrollera statisk webbplats, kräver command-tillägg  
 `php yellow.php clean` = Rengör statisk webbplats, kräver command-tillägg  
-`php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
 `php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
 `php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
-`php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
@@ -72,10 +74,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `CommandStaticDirectory ` = map för statiskt genererade filer  
 `CommandStaticDefaultFile` = standardfil för statisk webbplats  
 `CommandStaticErrorFile` = felfil för statisk webbplats  
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-command/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
