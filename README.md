@@ -12,7 +12,7 @@ Command line of the website.
 
 ## How to show available commands
 
-You can run commands at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions.
+You can run commands from the command line. This allows you to build a static website and do other things. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed.
 
 ## How to build a static website
 

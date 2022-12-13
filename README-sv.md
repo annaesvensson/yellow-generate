@@ -12,7 +12,7 @@ Webbplatsens kommandorad.
 
 ## Hur man visar tillgängliga kommandon
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att installera tilläg, skapa användarkonton och bygga en statisk webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att bygga en statisk webbplats och göra andra saker. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
 
 ## Hur man bygger en statisk webbplats
 

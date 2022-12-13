@@ -12,7 +12,7 @@ Befehlszeile der Webseite.
 
 ## Wie man verfügbare Befehle anzeigt
 
-Du kannst Befehle in den Befehlszeile ausführen. Das gibt dir die Möglichkeit Erweiterungen zu installieren, Benutzerkonten zu erstellen und eine statische Webseite zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen anzuzeigen.
+Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit eine statische Webseite au erstellen und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
 
 ## Wie man eine statische Webseite erstellt
 
