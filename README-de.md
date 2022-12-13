@@ -10,9 +10,9 @@ Befehlszeile der Webseite.
 
 [ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
-## Wie man die Befehlszeile benutzt
+## Wie man verfügbare Befehle anzeigt
 
-Du kannst deine Webseite in der Befehlszeile kontrollieren. Das gibt dir die Möglichkeit Erweiterungen zu installieren,  Benutzerkonten zu erstellen und eine statische Webseite zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen und Versionsnummern anzuzeigen.
+Du kannst Befehle in den Befehlszeile ausführen. Das gibt dir die Möglichkeit Erweiterungen zu installieren, Benutzerkonten zu erstellen und eine statische Webseite zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen anzuzeigen.
 
 ## Wie man eine statische Webseite erstellt
 
@@ -34,7 +34,7 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in einer statischen Webseite und einem Zwischenspeicher nicht enthalten.
+    Diese Seite ist in einer statischen Webseite nicht enthalten.
 
 Übersicht der verfügbaren Befehle:
 

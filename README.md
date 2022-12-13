@@ -10,9 +10,9 @@ Command line of the website.
 
 [Download ZIP file](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
-## How to use the command line
+## How to show available commands
 
-You can control your website at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions and version numbers.
+You can run commands at the command line. This allows you to install extensions, create user accounts and build a static website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the installed extensions.
 
 ## How to build a static website
 
@@ -34,7 +34,7 @@ Content file with option for building a static website:
     Title: Example page
     Build: exclude
     ---
-    This page is not included in a static website and cache.
+    This page is not included in a static website.
 
 Overview of available commands:
 

@@ -10,9 +10,9 @@ Webbplatsens kommandorad.
 
 [Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-command/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
-## Hur man använder kommandoraden
+## Hur man visar tillgängliga kommandon
 
-Du kan styra din webbplats på kommandoraden. Detta ger dig möjlighet att installera tilläg, skapa användarkonton och bygga en statisk webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen och versionsnumren.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att installera tilläg, skapa användarkonton och bygga en statisk webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa installerade tilläggen.
 
 ## Hur man bygger en statisk webbplats
 
@@ -34,7 +34,7 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
     Title: Exempelsida
     Build: exclude
     ---
-    Den här sidan ingår inte i en statisk webbplats och cache.
+    Den här sidan ingår inte i en statisk webbplats.
 
 Översikt över tillgängliga kommandon:
 
