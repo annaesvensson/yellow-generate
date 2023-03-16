@@ -50,10 +50,6 @@ Overview of available commands:
 `php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
-Showing available commands at the command line:
-
-`php yellow.php`
-
 Building static website at the command line:
 
 `php yellow.php build`  
