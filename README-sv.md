@@ -50,10 +50,6 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
-Visa tillgängliga kommandon på kommandoraden:
-
-`php yellow.php`
-
 Bygg statisk webbplats på kommandoraden: 
 
 `php yellow.php build`  
