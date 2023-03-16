@@ -50,10 +50,6 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
 
-Verfügbare Befehle in der Befehlszeile anzeigen:
-
-`php yellow.php`
-
 Statische Webseite in der Befehlszeile erstellen:
 
 `php yellow.php build`  
