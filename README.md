@@ -1,14 +1,14 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.45
+# Static 0.8.45
 
-Command line of the website.
+Build a static website.
 
-<p align="center"><img src="command-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="static-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install an extension
 
-[Download ZIP file](https://github.com/annaesvensson/yellow-command/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download ZIP file](https://github.com/annaesvensson/yellow-static/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to show available commands
 
@@ -39,9 +39,9 @@ Content file with option for building a static website:
 Overview of available commands:
 
 `php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php build` = Build static website, requires command extension  
-`php yellow.php check` = Check static website, requires command extension  
-`php yellow.php clean` = Clean static website, requires command extension  
+`php yellow.php build` = Build static website, requires static extension  
+`php yellow.php check` = Check static website, requires static extension  
+`php yellow.php clean` = Clean static website, requires static extension  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
 `php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
@@ -66,10 +66,10 @@ Cleaning static website and other files at the command line:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`CommandStaticUrl` = URL of the website when using the command line  
-`CommandStaticDirectory` = directory for statically generated files  
-`CommandStaticDefaultFile` = default file for static website  
-`CommandStaticErrorFile` = error file for static website  
+`StaticUrl` = URL of the website when using the command line  
+`StaticDirectory` = directory for statically generated files  
+`StaticDefaultFile` = default file for static website  
+`StaticErrorFile` = error file for static website  
 
 ## Developer
 

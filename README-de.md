@@ -1,14 +1,14 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.45
+# Static 0.8.45
 
-Befehlszeile der Webseite.
+Statische Webseite erstellen.
 
-<p align="center"><img src="command-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="static-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 
-[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-command/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-static/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Wie man verfügbare Befehle anzeigt
 
@@ -39,9 +39,9 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
 Übersicht der verfügbaren Befehle:
 
 `php yellow.php about` = Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
-`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
-`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
+`php yellow.php build` = Statische Webseite erstellen, erfordert Static-Erweiterung  
+`php yellow.php check` = Statische Webseite überprüfen, erfordert Static-Erweiterung  
+`php yellow.php clean` = Statische Webseite löschen, erfordert Static-Erweiterung  
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md)  
 `php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
@@ -66,10 +66,10 @@ Statische Webseite und andere Dateien in der Befehlszeile löschen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`CommandStaticUrl` = URL der Webseite bei Verwendung der Befehlszeile  
-`CommandStaticDirectory ` = Verzeichnis für statisch erzeugte Dateien  
-`CommandStaticDefaultFile` = Standard-Datei der statischen Webseite  
-`CommandStaticErrorFile` = Fehler-Datei der statischen Webseite  
+`StaticUrl` = URL der Webseite bei Verwendung der Befehlszeile  
+`StaticDirectory ` = Verzeichnis für statisch erzeugte Dateien  
+`StaticDefaultFile` = Standard-Datei der statischen Webseite  
+`StaticErrorFile` = Fehler-Datei der statischen Webseite  
 
 ## Entwickler
 

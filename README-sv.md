@@ -1,14 +1,14 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.45
+# Static 0.8.45
 
-Webbplatsens kommandorad.
+Bygg en statisk webbplats.
 
-<p align="center"><img src="command-screenshot.png?raw=true" alt="Skärmdump"></p>
+<p align="center"><img src="static-screenshot.png?raw=true" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-command/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-static/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Hur man visar tillgängliga kommandon
 
@@ -39,9 +39,9 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
 Översikt över tillgängliga kommandon:
 
 `php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php build` = Bygg statisk webbplats, kräver command-tillägg  
-`php yellow.php check` = Kontrollera statisk webbplats, kräver command-tillägg  
-`php yellow.php clean` = Rengör statisk webbplats, kräver command-tillägg  
+`php yellow.php build` = Bygg statisk webbplats, kräver static-tillägg  
+`php yellow.php check` = Kontrollera statisk webbplats, kräver static-tillägg  
+`php yellow.php clean` = Rengör statisk webbplats, kräver static-tillägg  
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
 `php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
@@ -66,10 +66,10 @@ Rengör statisk webbplats och andra filer på kommandoraden:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`CommandStaticUrl` = webbplatsens URL när man använder kommandoraden  
-`CommandStaticDirectory ` = map för statiskt genererade filer  
-`CommandStaticDefaultFile` = standardfil för statisk webbplats  
-`CommandStaticErrorFile` = felfil för statisk webbplats  
+`StaticUrl` = webbplatsens URL när man använder kommandoraden  
+`StaticDirectory ` = map för statiskt genererade filer  
+`StaticDefaultFile` = standardfil för statisk webbplats  
+`StaticErrorFile` = felfil för statisk webbplats  
 
 ## Utvecklare
 

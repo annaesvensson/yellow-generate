@@ -1,7 +1,7 @@
 <?php
-// Command extension, https://github.com/annaesvensson/yellow-command
+// Static extension, https://github.com/annaesvensson/static-command
 
-class YellowCommand {
+class YellowStatic {
     const VERSION = "0.8.45";
     public $yellow;                       // access to API
     public $files;                        // number of files
@@ -136,7 +136,7 @@ class YellowCommand {
             echo "\rERROR building location '$location', ".$this->yellow->page->getStatusCode(true)."\n";
         }
         if ($this->yellow->system->get("coreDebugMode")>=1) {
-            echo "YellowCommand::buildStaticFile status:$statusCode location:$location<br/>\n";
+            echo "YellowStatic::buildStaticFile status:$statusCode location:$location<br/>\n";
         }
         return $statusCode;
     }
@@ -211,7 +211,7 @@ class YellowCommand {
                 if (!isset($this->locationsArguments[$location])) {
                     $this->locationsArguments[$location] = $location;
                     if ($this->yellow->system->get("coreDebugMode")>=2) {
-                        echo "YellowCommand::analyseLocations detected location:$location<br/>\n";
+                        echo "YellowStatic::analyseLocations detected location:$location<br/>\n";
                     }
                 }
             } else {
@@ -219,7 +219,7 @@ class YellowCommand {
                 if (!isset($this->locationsArgumentsPagination[$location])) {
                     $this->locationsArgumentsPagination[$location] = $location;
                     if ($this->yellow->system->get("coreDebugMode")>=2) {
-                        echo "YellowCommand::analyseLocations detected location:$location<br/>\n";
+                        echo "YellowStatic::analyseLocations detected location:$location<br/>\n";
                     }
                 }
             }
@@ -288,7 +288,7 @@ class YellowCommand {
                                 $links[$url] .= ",".$locationSource;
                             }
                             if ($this->yellow->system->get("coreDebugMode")>=2) {
-                                echo "YellowCommand::analyseLinks detected url:$url<br/>\n";
+                                echo "YellowStatic::analyseLinks detected url:$url<br/>\n";
                             }
                         } elseif (substru($location, 0, 1)=="/") {
                             $url = "$scheme://$address$location";
@@ -298,12 +298,12 @@ class YellowCommand {
                                 $links[$url] .= ",".$locationSource;
                             }
                             if ($this->yellow->system->get("coreDebugMode")>=2) {
-                                echo "YellowCommand::analyseLinks detected url:$url<br/>\n";
+                                echo "YellowStatic::analyseLinks detected url:$url<br/>\n";
                             }
                         }
                     }
                     if ($this->yellow->system->get("coreDebugMode")>=1) {
-                        echo "YellowCommand::analyseLinks location:$locationSource<br/>\n";
+                        echo "YellowStatic::analyseLinks location:$locationSource<br/>\n";
                     }
                 } else {
                     $statusCode = 500;
@@ -341,7 +341,7 @@ class YellowCommand {
         uksort($remote, "strnatcasecmp");
         foreach ($remote as $url=>$value) {
             echo "\rChecking static website ".$this->getProgressPercent(++$remoteNow, count($remote), 5, 95)."%... ";
-            if ($this->yellow->system->get("coreDebugMode")>=1) echo "YellowCommand::analyseStatus url:$url\n";
+            if ($this->yellow->system->get("coreDebugMode")>=1) echo "YellowStatic::analyseStatus url:$url\n";
             $referer = "$scheme://$address$base".(($pos = strposu($value, ",")) ? substru($value, 0, $pos) : $value);
             $statusCodeUrl = $this->getLinkStatus($url, $referer);
             if ($statusCodeUrl!=200) {
@@ -591,7 +591,7 @@ class YellowCommand {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_URL, $url);
         curl_setopt($curlHandle, CURLOPT_REFERER, $referer);
-        curl_setopt($curlHandle, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible; YellowCommand/".YellowCommand::VERSION."; LinkChecker)");
+        curl_setopt($curlHandle, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible; YellowStatic/".YellowStatic::VERSION."; LinkChecker)");
         curl_setopt($curlHandle, CURLOPT_NOBODY, 1);
         curl_setopt($curlHandle, CURLOPT_CONNECTTIMEOUT, 30);
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -600,7 +600,7 @@ class YellowCommand {
         curl_close($curlHandle);
         if ($statusCode<200) $statusCode = 404;
         if ($this->yellow->system->get("coreDebugMode")>=2) {
-            echo "YellowCommand::getLinkStatus status:$statusCode url:$url<br/>\n";
+            echo "YellowStatic::getLinkStatus status:$statusCode url:$url<br/>\n";
         }
         return $statusCode;
     }
