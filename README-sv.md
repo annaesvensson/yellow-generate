@@ -10,19 +10,15 @@ Bygg en statisk webbplats.
 
 [Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-static/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
-## Hur man visar tillgängliga kommandon
-
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att bygga en statisk webbplats och göra andra saker. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
-
 ## Hur man bygger en statisk webbplats
 
-Du kan bygga en statisk webbplats på kommandoraden. Den static-site-generator bygger hella webbsidan i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
+Du kan bygga en statisk webbplats på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den static-site-generator bygger hella webbsidan i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
 
 ## Hur man bygger en statisk cache
 
-Du kan skapa en statisk cache på kommandoraden. Den statiska cachen stöder en vanlig webbplats genom att bygga några filer i förväg och lagra dem i filsystemet. Du kan också tänka på det som att kombinera funktionerna hos en statisk webbplats och funktionerna hos en vanlig webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build system/cache`. Detta kommer att bygga en cache i `system/cache` mappen. Skapa en ny cache vid behov. För att rensa cachen skriv: `php yellow.php clean system/cache`.
+Du kan skapa en statisk cache på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den statiska cachen stöder en vanlig webbplats genom att bygga några filer i förväg och lagra dem i filsystemet. Du kan också tänka på det som att kombinera funktionerna hos en statisk webbplats och funktionerna hos en vanlig webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build system/cache`. Detta kommer att bygga en cache i `system/cache` mappen. Skapa en ny cache vid behov. För att rensa cachen skriv: `php yellow.php clean system/cache`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
 
@@ -35,20 +31,6 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
     Build: exclude
     ---
     Den här sidan ingår inte i en statisk webbplats.
-
-Översikt över tillgängliga kommandon:
-
-`php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php build` = Bygg statisk webbplats, kräver static-tillägg  
-`php yellow.php check` = Kontrollera statisk webbplats, kräver static-tillägg  
-`php yellow.php clean` = Rengör statisk webbplats, kräver static-tillägg  
-`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
-`php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
-`php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
-`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 Bygg statisk webbplats på kommandoraden: 
 
