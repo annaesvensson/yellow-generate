@@ -1,8 +1,8 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Static 0.8.49
+# Static 0.8.50
 
-Statische Webseite erstellen.
+Statische Webseite generieren.
 
 <p align="center"><img src="static-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
@@ -10,31 +10,31 @@ Statische Webseite erstellen.
 
 [ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-static/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
-## Wie man eine statische Webseite erstellt
+## Wie man eine statische Webseite generiert
 
-Du kannst eine statische Webseite in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) erstellen. Der Static-Site-Generator erstellt die gesamte Webseite im Voraus, anstatt darauf zu warten dass eine Datei angefordert wird. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
+Du kannst eine statische Webseite in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) generieren. Der Static-Site-Generator macht die gesamte Webseite im Voraus, anstatt darauf zu warten dass eine Datei angefordert wird. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das generiert eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und generiere bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
 
-Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
+Falls du nicht willst dass eine Seite generiert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 
-## Wie man einen statischen Zwischenspeicher erstellt
+## Wie man einen statischen Zwischenspeicher generiert
 
-Du kannst einen statischen Zwischenspeicher in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) erstellen. Der statische Zwischenspeicher unterstützt eine normale Webseite, indem er einige Dateien im Voraus erstellt und im Dateisystem abspeichert. Man kann es sich auch so vorstellen, dass man die Funktionen einer statischen Webseite und die Funktionen einer normalen Webseite kombiniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php build system/cache`. Das erstellt einen Zwischenspeicher im `system/cache`-Verzeichnis. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean system/cache`.
+Du kannst einen statischen Zwischenspeicher in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) generieren. Der statische Zwischenspeicher unterstützt eine normale Webseite, indem er einige Dateien im Voraus generiert und im Dateisystem abspeichert. Man kann es sich auch so vorstellen, dass man die Funktionen einer statischen Webseite und die Funktionen einer normalen Webseite kombiniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate system/cache`. Das generiert einen Zwischenspeicher im `system/cache`-Verzeichnis. Generiere bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean system/cache`.
 
-Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
+Falls du nicht willst dass eine Seite generiert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 
 ## Beispiele
 
-Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
+Inhaltsdatei mit Option zum Generieren einer statischen Webseite:
 
     ---
     Title: Beispielseite
-    Build: exclude
+    Generate: exclude
     ---
     Diese Seite ist in einer statischen Webseite nicht enthalten.
 
-Statische Webseite in der Befehlszeile erstellen:
+Statische Webseite in der Befehlszeile generieren:
 
-`php yellow.php build`  
+`php yellow.php generate`  
 
 Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
 
