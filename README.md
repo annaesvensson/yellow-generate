@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Static 0.8.50
+# Generate 0.8.50
 
 Generate a static website.
 
@@ -8,7 +8,7 @@ Generate a static website.
 
 ## How to install an extension
 
-[Download ZIP file](https://github.com/annaesvensson/yellow-static/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download ZIP file](https://github.com/annaesvensson/yellow-generate/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to generate a static website
 
