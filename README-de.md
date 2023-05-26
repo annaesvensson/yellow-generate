@@ -1,14 +1,14 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Static 0.8.50
+# Generate 0.8.50
 
 Statische Webseite generieren.
 
-<p align="center"><img src="static-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="generate-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 
-[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-static/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-generate/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Wie man eine statische Webseite generiert
 
@@ -48,10 +48,10 @@ Statische Webseite und andere Dateien in der Befehlszeile löschen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`StaticUrl` = URL der Webseite bei Verwendung der Befehlszeile  
-`StaticDirectory ` = Verzeichnis für statisch erzeugte Dateien  
-`StaticDefaultFile` = Standard-Datei der statischen Webseite  
-`StaticErrorFile` = Fehler-Datei der statischen Webseite  
+`GenerateStaticUrl` = URL der Webseite bei Verwendung der Befehlszeile  
+`GenerateStaticDirectory ` = Verzeichnis für statisch erzeugte Dateien  
+`GenerateStaticDefaultFile` = Standard-Datei der statischen Webseite  
+`GenerateStaticErrorFile` = Fehler-Datei der statischen Webseite  
 
 ## Entwickler
 

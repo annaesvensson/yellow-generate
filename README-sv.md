@@ -1,14 +1,14 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Static 0.8.50
+# Generate 0.8.50
 
 Generera en statisk webbplats.
 
-<p align="center"><img src="static-screenshot.png?raw=true" alt="Skärmdump"></p>
+<p align="center"><img src="generate-screenshot.png?raw=true" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-static/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-generate/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Hur man genererar en statisk webbplats
 
@@ -48,10 +48,10 @@ Rengör statisk webbplats och andra filer på kommandoraden:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`StaticUrl` = webbplatsens URL när man använder kommandoraden  
-`StaticDirectory ` = map för statiskt genererade filer  
-`StaticDefaultFile` = standardfil för statisk webbplats  
-`StaticErrorFile` = felfil för statisk webbplats  
+`GenerateStaticUrl` = webbplatsens URL när man använder kommandoraden  
+`GenerateStaticDirectory ` = map för statiskt genererade filer  
+`GenerateStaticDefaultFile` = standardfil för statisk webbplats  
+`GenerateStaticErrorFile` = felfil för statisk webbplats  
 
 ## Utvecklare
 

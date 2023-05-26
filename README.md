@@ -4,7 +4,7 @@
 
 Generate a static website.
 
-<p align="center"><img src="static-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="generate-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -48,10 +48,10 @@ Cleaning static website and other files at the command line:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`StaticUrl` = URL of the website when using the command line  
-`StaticDirectory` = directory for statically generated files  
-`StaticDefaultFile` = default file for static website  
-`StaticErrorFile` = error file for static website  
+`GenerateStaticUrl` = URL of the website when using the command line  
+`GenerateStaticDirectory` = directory for statically generated files  
+`GenerateStaticDefaultFile` = default file for static website  
+`GenerateStaticErrorFile` = error file for static website  
 
 ## Developer
 
