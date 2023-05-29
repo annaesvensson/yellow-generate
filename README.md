@@ -12,7 +12,7 @@ Generate a static website.
 
 ## How to generate a static website
 
-You can generate a static website at the [command line](https://github.com/annaesvensson/yellow-core). The static site generator makes the entire website in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate`, you can optionally add a folder and a location. This will generate a static website in the `public` folder. Upload the static website to your web server and generate a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type: `php yellow.php clean`.
+You can generate a static website at the [command line](https://github.com/annaesvensson/yellow-core). The static site generator makes the entire website in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate`, you can optionally add a folder and a location. This will generate a static website in the `public` folder. Upload the static website to your web server and generate a new one when needed. To clean the static website type: `php yellow.php clean`.
 
 If you don't want that a page is generated, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 
@@ -20,7 +20,13 @@ If you don't want that a page is generated, set `Generate: exclude` in the [page
 
 You can generate a static cache at the [command line](https://github.com/annaesvensson/yellow-core). The static cache supports a normal website by generating some files in advance and storing them in the file system. You can also think of it as combining the features of a static website and the features of a normal website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate system/cache`. Generate a new cache when needed. To clean the cache type: `php yellow.php clean system/cache`.
 
-If you don't want that a page is generated, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
+If you don't want that a page is cached, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
+
+## How to find broken links
+
+You can find broken links at the [command line](https://github.com/annaesvensson/yellow-core). Broken links accumulate on a website over time. It is quite normal for pages to be renamed and the old links to no longer work. Don’t worry, it's not hard to find and fix broken links. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate` and `php yellow.php check`. This will generate a static website and show pages with broken links. Edit the pages shown and fix the links. To clean the static website type: `php yellow.php clean`.
+
+If you don't want that a page is checked, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 
 ## Examples
 
@@ -36,11 +42,11 @@ Generating static website at the command line:
 
 `php yellow.php generate`  
 
-Checking static website for broken links at the command line:
+Finding broken links at the command line:
 
 `php yellow.php check`  
 
-Cleaning static website and other files at the command line:
+Cleaning static website at the command line:
 
 `php yellow.php clean`  
 

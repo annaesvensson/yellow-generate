@@ -12,7 +12,7 @@ Statische Webseite generieren.
 
 ## Wie man eine statische Webseite generiert
 
-Du kannst eine statische Webseite in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) generieren. Der Static-Site-Generator macht die gesamte Webseite im Voraus, anstatt darauf zu warten dass eine Datei angefordert wird. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das generiert eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und generiere bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
+Du kannst eine statische Webseite in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) generieren. Der Static-Site-Generator macht die gesamte Webseite im Voraus, anstatt darauf zu warten dass eine Datei angefordert wird. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das generiert eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und generiere bei Bedarf eine neue. Zum Löschen gibt man ein: `php yellow.php clean`.
 
 Falls du nicht willst dass eine Seite generiert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 
@@ -20,7 +20,13 @@ Falls du nicht willst dass eine Seite generiert wird, kannst du `Generate: exclu
 
 Du kannst einen statischen Zwischenspeicher in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) generieren. Der statische Zwischenspeicher unterstützt eine normale Webseite, indem er einige Dateien im Voraus generiert und im Dateisystem abspeichert. Man kann es sich auch so vorstellen, dass man die Funktionen einer statischen Webseite und die Funktionen einer normalen Webseite kombiniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate system/cache`. Generiere bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean system/cache`.
 
-Falls du nicht willst dass eine Seite generiert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
+Falls du nicht willst dass eine Seite zwischengespeichert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
+
+## Wie man defekte Links findet
+
+Du kannst defekte Links in der [Befehlszeile](https://github.com/annaesvensson/yellow-core) finden. Defekte Links häufen sich mit der Zeit auf einer Webseite an. Es ist ganz normal dass Seiten umbenannt werden und die alten Links nicht mehr funktionieren. Keine Sorge, es ist nicht schwer defekte Links zu finden und zu korrigieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate` und `php yellow.php check`. Das generiert eine statische Website und zeigt Seiten mit defekten Links an. Bearbeite die angezeigten Seiten und korrigiere die Links. Zum Löschen gibt man ein: `php yellow.php clean`.
+
+Falls du nicht willst dass eine Seite überprüft wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 
 ## Beispiele
 
@@ -36,11 +42,11 @@ Statische Webseite in der Befehlszeile generieren:
 
 `php yellow.php generate`  
 
-Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
+Defekte Links in der Befehlszeile finden:
 
 `php yellow.php check`  
 
-Statische Webseite und andere Dateien in der Befehlszeile löschen:
+Statische Webseite in der Befehlszeile löschen:
 
 `php yellow.php clean`  
 
