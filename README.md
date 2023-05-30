@@ -24,7 +24,7 @@ If you don't want that a page is cached, set `Generate: exclude` in the [page se
 
 ## How to find broken links
 
-You can find broken links at the [command line](https://github.com/annaesvensson/yellow-core). Broken links accumulate on a website over time. It is quite normal for pages to be renamed and the old links to no longer work. Don’t worry, it's not hard to find and fix broken links. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate` and `php yellow.php check`. This will generate a static website and find broken links. Edit the pages shown and fix the links. To clean the static website type: `php yellow.php clean`.
+You can find broken links at the [command line](https://github.com/annaesvensson/yellow-core). It is quite normal for pages to be renamed, files to be removed and links to no longer work. Don’t worry, it's not hard to find and fix broken links. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate` and `php yellow.php check`. This will generate a static website and find broken links. Edit the pages shown. To clean the static website type: `php yellow.php clean`.
 
 If you don't want that a page is checked, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 
