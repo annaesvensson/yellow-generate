@@ -18,7 +18,7 @@ If you don't want that a page is generated, set `Generate: exclude` in the [page
 
 ## How to generate a static cache
 
-You can generate a static cache at the [command line](https://github.com/annaesvensson/yellow-core). The static cache supports a normal website by generating some files in advance and storing them in the file system. You can also think of it as combining the features of a static website and the features of a normal website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate system/cache`. Generate a new cache when needed. To clean the cache type: `php yellow.php clean system/cache`.
+You can generate a static cache at the [command line](https://github.com/annaesvensson/yellow-core). The static cache supports a normal website by generating some files in advance and storing them in the file system. You can also think of it as combining the features of a static website and the features of a normal website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate system/cache`, you can optionally add a location. Generate a new cache when needed. To clean the cache type: `php yellow.php clean system/cache`.
 
 If you don't want that a page is cached, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 

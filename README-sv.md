@@ -18,7 +18,7 @@ Om du inte vill att en sida ska genereras, ställ in `Generate: exclude` i [sidi
 
 ## Hur man genererar en statisk cache
 
-Du kan skapa en statisk cache på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den statiska cachen stöder en vanlig webbplats genom att generera några filer i förväg och lagra dem i filsystemet. Du kan också tänka på det som att kombinera funktionerna hos en statisk webbplats och funktionerna hos en vanlig webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php generate system/cache`. Skapa en ny cache vid behov. För att rensa cachen skriv: `php yellow.php clean system/cache`.
+Du kan skapa en statisk cache på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den statiska cachen stöder en vanlig webbplats genom att generera några filer i förväg och lagra dem i filsystemet. Du kan också tänka på det som att kombinera funktionerna hos en statisk webbplats och funktionerna hos en vanlig webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php generate system/cache`, du kan valfritt ange en plats. Skapa en ny cache vid behov. För att rensa cachen skriv: `php yellow.php clean system/cache`.
 
 Om du inte vill att en sida ska cachelagras, ställ in `Generate: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
 
