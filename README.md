@@ -36,6 +36,16 @@ Generating static website at the command line:
 
 `php yellow.php generate`  
 
+Generating static cache at the command line:
+
+`php yellow.php generate system/cache`  
+
+Generating static cache at the command line, different locations:
+
+`php yellow.php generate system/cache /wiki/`  
+`php yellow.php generate system/cache /blog/`  
+`php yellow.php generate system/cache /help/how-to-make-a-small-website`  
+
 Cleaning static website at the command line:
 
 `php yellow.php clean`  

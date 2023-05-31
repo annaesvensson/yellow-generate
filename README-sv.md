@@ -32,9 +32,19 @@ Innehållsfil med alternativ för att generera en statisk webbplats:
     ---
     Den här sidan ingår inte i en statisk webbplats.
 
-Generera statisk webbplats på kommandoraden: 
+Generera statisk webbplats på kommandoraden:
 
 `php yellow.php generate`  
+
+Generera statisk cache på kommandoraden:
+
+`php yellow.php generate system/cache`  
+
+Generera statisk cache på kommandoraden, olika platser:
+
+`php yellow.php generate system/cache /wiki/`  
+`php yellow.php generate system/cache /blog/`  
+`php yellow.php generate system/cache /help/how-to-make-a-small-website`  
 
 Rengör statisk webbplats på kommandoraden:
 

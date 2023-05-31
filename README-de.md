@@ -36,6 +36,16 @@ Statische Webseite in der Befehlszeile generieren:
 
 `php yellow.php generate`  
 
+Statischen Zwischenspeicher in der Befehlszeile generieren:
+
+`php yellow.php generate system/cache`  
+
+Statischen Zwischenspeicher in der Befehlszeile generieren, unterschiedliche Orte:
+
+`php yellow.php generate system/cache /wiki/`  
+`php yellow.php generate system/cache /blog/`  
+`php yellow.php generate system/cache /help/how-to-make-a-small-website`  
+
 Statische Webseite in der Befehlszeile löschen:
 
 `php yellow.php clean`  
