@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.50
+# Generate 0.8.51
 
 Statische Webseite generieren.
 
@@ -22,12 +22,6 @@ Du kannst einen statischen Zwischenspeicher in der [Befehlszeile](https://github
 
 Falls du nicht willst dass eine Seite zwischengespeichert wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 
-## Wie man defekte Links findet
-
-Du kannst defekte Links in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) finden. Es ist ganz normal dass Seiten umbenannt werden, Dateien entfernt werden und Links nicht mehr funktionieren. Keine Sorge, es ist nicht schwer defekte Links zu finden und zu korrigieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php generate` und `php yellow.php check`. Das generiert eine statische Website und findet defekte Links. Bearbeite die angezeigten Seiten. Zum Löschen der statischen Website gibt man ein: `php yellow.php clean`.
-
-Falls du nicht willst dass eine Seite überprüft wird, kannst du `Generate: exclude` in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
-
 ## Beispiele
 
 Inhaltsdatei mit Option zum Generieren einer statischen Webseite:
@@ -41,10 +35,6 @@ Inhaltsdatei mit Option zum Generieren einer statischen Webseite:
 Statische Webseite in der Befehlszeile generieren:
 
 `php yellow.php generate`  
-
-Defekte Links in der Befehlszeile finden:
-
-`php yellow.php check`  
 
 Statische Webseite in der Befehlszeile löschen:
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.50
+# Generate 0.8.51
 
 Generera en statisk webbplats.
 
@@ -22,12 +22,6 @@ Du kan skapa en statisk cache på [kommandoraden](https://github.com/annaesvenss
 
 Om du inte vill att en sida ska cachelagras, ställ in `Generate: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
 
-## Hur man hittar trasiga länkar
-
-Du kan hitta trasiga länkar på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Det är ganska normalt att sidor byter namn, filer tas bort och länkar inte längre fungerar. Oroa dig inte, det är inte svårt att hitta och fixa trasiga länkar. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php generate` och `php yellow.php check`. Detta kommer att generera en statisk webbplats och hitta trasiga länkar. Redigera sidorna som visas. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
-
-Om du inte vill att en sida ska granskas, ställ in `Generate: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
-
 ## Exempel
 
 Innehållsfil med alternativ för att generera en statisk webbplats:
@@ -41,10 +35,6 @@ Innehållsfil med alternativ för att generera en statisk webbplats:
 Generera statisk webbplats på kommandoraden: 
 
 `php yellow.php generate`  
-
-Hitta trasiga länkar på kommandoraden:
-
-`php yellow.php check`  
 
 Rengör statisk webbplats på kommandoraden:
 

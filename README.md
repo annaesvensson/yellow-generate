@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.50
+# Generate 0.8.51
 
 Generate a static website.
 
@@ -22,12 +22,6 @@ You can generate a static cache at the [command line](https://github.com/annaesv
 
 If you don't want that a page is cached, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 
-## How to find broken links
-
-You can find broken links at the [command line](https://github.com/annaesvensson/yellow-core). It is quite normal for pages to be renamed, files to be removed and links to no longer work. Don’t worry, it's not hard to find and fix broken links. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate` and `php yellow.php check`. This will generate a static website and find broken links. Edit the pages shown. To clean the static website type: `php yellow.php clean`.
-
-If you don't want that a page is checked, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
-
 ## Examples
 
 Content file with option for generating a static website:
@@ -41,10 +35,6 @@ Content file with option for generating a static website:
 Generating static website at the command line:
 
 `php yellow.php generate`  
-
-Finding broken links at the command line:
-
-`php yellow.php check`  
 
 Cleaning static website at the command line:
 
