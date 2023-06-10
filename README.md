@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.51
+# Generate 0.8.52
 
 Generate a static website.
 
@@ -46,9 +46,9 @@ Generating static cache at the command line, different locations:
 `php yellow.php generate system/cache /blog/`  
 `php yellow.php generate system/cache /help/how-to-make-a-small-website`  
 
-Cleaning static website at the command line:
+Cleaning static cache at the command line:
 
-`php yellow.php clean`  
+`php yellow.php clean system/cache`  
 
 ## Settings
 

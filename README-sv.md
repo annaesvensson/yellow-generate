@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.51
+# Generate 0.8.52
 
 Generera en statisk webbplats.
 
@@ -46,9 +46,9 @@ Generera statisk cache på kommandoraden, olika platser:
 `php yellow.php generate system/cache /blog/`  
 `php yellow.php generate system/cache /help/how-to-make-a-small-website`  
 
-Rengör statisk webbplats på kommandoraden:
+Rengör statisk cache på kommandoraden:
 
-`php yellow.php clean`  
+`php yellow.php clean system/cache`  
 
 ## Inställningar
 

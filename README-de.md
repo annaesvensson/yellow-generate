@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Generate 0.8.51
+# Generate 0.8.52
 
 Statische Webseite generieren.
 
@@ -46,9 +46,9 @@ Statischen Zwischenspeicher in der Befehlszeile generieren, unterschiedliche Ort
 `php yellow.php generate system/cache /blog/`  
 `php yellow.php generate system/cache /help/how-to-make-a-small-website`  
 
-Statische Webseite in der Befehlszeile löschen:
+Statischen Zwischenspeicher in der Befehlszeile löschen:
 
-`php yellow.php clean`  
+`php yellow.php clean system/cache`  
 
 ## Einstellungen
 
