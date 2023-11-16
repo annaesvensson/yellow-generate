@@ -4,7 +4,7 @@
 
 Generera en statisk webbplats.
 
-<p align="center"><img src="generate-screenshot.png?raw=true" alt="Skärmdump"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
