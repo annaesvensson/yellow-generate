@@ -12,7 +12,7 @@ Generate a static website.
 
 ## How to generate a static website
 
-You can generate a static website at the [command line](https://github.com/annaesvensson/yellow-core). The static site generator makes the entire website in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate`, you can optionally add a folder and a location. This will generate a static website in the `public` folder. Upload the static website to your web server and generate a new one when needed. To clean the static website type: `php yellow.php clean`.
+You can generate a static website at the [command line](https://github.com/annaesvensson/yellow-core). The static generator makes the entire website in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php generate`, you can optionally add a folder and a location. This will generate a static website in the `public` folder. Upload the static website to your web server and generate a new one when needed. To clean the static website type: `php yellow.php clean`.
 
 If you don't want that a page is generated, set `Generate: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
 

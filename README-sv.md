@@ -12,7 +12,7 @@ Generera en statisk webbplats.
 
 ## Hur man genererar en statisk webbplats
 
-Du kan generera en statisk webbplats på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den static-site-generatorn skapar hella webbplatsen i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php generate`, du kan valfritt ange en mapp och en plats. Detta kommer att generera en statisk webbplats i `public` mappen. Ladda upp statiska webbplatsen till din webbserver och generera en ny när det behövs. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
+Du kan generera en statisk webbplats på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Den statiska generatorn skapar hella webbplatsen i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php generate`, du kan valfritt ange en mapp och en plats. Detta kommer att generera en statisk webbplats i `public` mappen. Ladda upp statiska webbplatsen till din webbserver och generera en ny när det behövs. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
 
 Om du inte vill att en sida ska genereras, ställ in `Generate: exclude` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida.
 
