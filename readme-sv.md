@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Generate 0.9.7
 
-Generera en statisk webbplats.
+Generera en statisk webbplats. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -59,6 +57,4 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `GenerateStaticDefaultFile` = standardfil för statisk webbplats  
 `GenerateStaticErrorFile` = felfil för statisk webbplats  
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).

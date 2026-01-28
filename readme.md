@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Generate 0.9.7
 
-Generate a static website.
+Generate a static website. Developed by Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -59,6 +57,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `GenerateStaticDefaultFile` = default file for static website  
 `GenerateStaticErrorFile` = error file for static website  
 
-## Developer
-
-Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
