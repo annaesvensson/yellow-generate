@@ -1,4 +1,4 @@
-# Generate 0.9.8
+# Generate 1.0.1
 
 Statische Webseite generieren. Entwickelt von Anna Svensson.
 

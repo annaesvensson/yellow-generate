@@ -1,4 +1,4 @@
-# Generate 0.9.8
+# Generate 1.0.1
 
 Generera en statisk webbplats. Utvecklad av Anna Svensson.
 
