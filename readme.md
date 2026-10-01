@@ -1,4 +1,4 @@
-# Generate 1.0.1
+# Generate 1.0.2
 
 Generate a static website. Developed by Anna Svensson.
 
